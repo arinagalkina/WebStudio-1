@@ -5,7 +5,7 @@ h1 {
     color:  #FFFFFF;
 }
 
-}
+
 h2 {
     background-color:  #fffdfd;
 }
@@ -24,8 +24,13 @@ a {
 li {
     list-style-type: none;
 } 
+.promo {
+    background-color: #2F303A;;
+
+}
+
 h1 {
-    background-color: #2F303A;
+    
     width: 1600px;
     height: 600px;
     top: 80px;
@@ -47,11 +52,11 @@ button {
     
 
 
-position: absolute;
+
 width: 152px;
 height: 30px;
-left: 724px;
-top: 440px;
+
+
 
 font-family: 'Roboto';
 font-style: normal;
@@ -60,10 +65,12 @@ font-size: 16px;
 line-height: 30px;
 
 
-display: flex;
-align-items: center;
+
 text-align: center;
 letter-spacing: 0.06em;
+background-color: #2196F3;
+color: #FFFFFF;
+
 }
 
  
