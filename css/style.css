@@ -13,7 +13,7 @@ h2 {
 
 
 body {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
  
 a:hover {
@@ -31,21 +31,25 @@ li {
 }
 
 section {
-    
-    
     height: 600px;
     top: 80px;
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 900;
-font-size: 44px;
-line-height: 60px;
+
+
 
 
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 
+   
+
+
+    
+    
+    
 }
 button {
    
@@ -72,6 +76,9 @@ letter-spacing: 0.06em;
 background-color: #2196F3;
 color: #FFFFFF;
 
+}
+header{
+    background-color: rgb(243, 228, 210);
 }
 
  
