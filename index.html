@@ -5,111 +5,150 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
-        <h2>WebStudio</h2>
-    <nav>
-        <ul>
-            
-            <li id="item">
-                <a href="/">Студія</a>
-            </li>
-            <li>
-                <a href="/">Портфоліо</a>
-            </li>
-            <li>
-                <a href="/">Контакти</a>
-            </li>
-            
-        </ul>
-    </nav>
+        <div class="container">
+           <div class="header_blocks">
+            <div class="header_left">
+                <a class="header_blok" href="/">
+                    <h2 class="logo"><span class="color_span">Web</span>Studio</h2>
+                </a> 
+                <nav>
+                    <ul class="menu_link">
+                        
+                        <li id="item">
+                            <a href="/">Студія</a>
+                        </li>
+                        <li>
+                            <a href="/">Портфоліо</a>
+                        </li>
+                        <li>
+                            <a href="/">Контакти</a>
+                        </li>
+                        
+                    </ul>
+                </nav>
+            </div>
+       
+           
+    
+        <div class="menu_contact">
+            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </div>
+           </div>
+        </div>
 
-    <div>
-        <a href="/">+38 096 111 11 11</a>
-        <a href="/">info@devstudio.com</a>
-    </div>
-</header>
+    </header>
+           
+        
 <main>
-    <section class="promo">
-        <h1>ефективні рішення для<br> вашого бізнесу</h1>
-        <button>Замовити послугу</button>
+    
+            <section class="promo">
+                <div class="container">
+                    <h1 class="promo_title">ефективні рішення для<br> вашого бізнесу</h1>
+                <button class="promo_btn">Замовити послугу</button>
+                </div>
+            </section>
+    <section class="feature">
+        <div class="container">
+            <ul class="feature_items">
+                <li class="feature_item">
+                    <h3 class="feature_title">Увага до деталей</h3>
+                    <p>Ідейні міркування, і навіть 
+                        початок повсякденної роботи з формування позиції.</p>
+                </li>
+                <li class=" feature_item">
+                    <h4>Пунктуальнiсть</h4>
+                    <p>Завдання організації, особливо рамки і місце
+                         навчання кадрів тягне у себе.</p>
+                </li>
+                <li class="feature_item">
+                    <h4>Планування</h4>
+                    <p>Так само консультація з широким активом 
+                        значною мірою зумовлює.</p>
+                </li>
+                <li class="feature_item">
+                     <h4>Сучасні Технології</h4>
+                    <p>Значимість цих проблем настільки очевидна,
+                         що реалізація планових завдань.</p>
+                </li>
+            </ul>
+        </div>
     </section>
-        <section>
-        <ul>
-            <li class="item">
-                <h4>Увага до деталей</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. 
-                    Voluptatem veritatis <br> exercitationem velit magnam iure.</p>
-            </li>
-            <li class="item">
-                <h4>Пунктуальнiсть</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit.
-                     Voluptatem veritatis <br> exercitationem velit magnam iure.</p>
-            </li>
-            <li class="item">
-                <h4>Планування</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit.
-                     Voluptatem veritatis <br> exercitationem velit magnam iure.</p>
-            </li>
-            <li class="item">
-                 <h4>Сучасні Технології</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit.
-                     Voluptatem veritatis <br> exercitationem velit magnam iure</p>
-            </li>
-        </ul>
+    <section class="works">
+        <div class="container">
+            <h2 class="work_title">Чим ми займаємося</h2>
+    <ul class="work_photos">
+
+        <li class="work_item"><img src="./src/img/box1.png" alt="img"></li> 
+           
+
+        <li class="work_item"><img src="./src/img/box2.png" alt="img"></li>
+
+        <li class="work_item"><img src="./src/img/box3.png" alt="img"></li>
+    </ul>
+
+        </div>
     </section>
-    <section id="card">
-        <h2> Чим ми займаємося</h2>
-        <img src="./src/img/box 1.png" alt="img">
-        <img src="./src/img/box 2.png" alt="img">
-        <img src="./src/img/box 3.png" alt="img">
-    </section>
-    <section>
-        <h3>Наша команда</h3>
-        <ul>
-            <li>
+    <section class="team">
+        <div class="container">
+            <h3 class="team_title">Наша команда</h3>
+        <ul class="cards">
+            <li class="team_card">
                 <img src="./src/img/img.png" alt="img">
                 
-                <h4>Ігор Дем’яненко</h4>
-                    <h5>Product Designer</h5> 
+                <h4 class="name">Ігор Дем’яненко</h4>
+                    <h5 class="job">Product Designer</h5> 
                 </li>
                
-                <li>
+                <li class="team_card">
                     <img src="./src/img/olga.png" alt="img">
                     
-                    <h4>Ольга Репіна</h4>
-                    <h5>Frontend Developer</h5>
+                    <h4 class="name">Ольга Репіна</h4>
+                    <h5 class="job">Frontend Developer</h5>
                 </li>
                 
-                <li>
-                    <img src="./src/img/img man.png" alt="img">
+                <li class="team_card">
+                    <img src="./src/img/img_man.png" alt="img">
                     
-                    <h4>Микола Тарасов</h4>
-                    <h5>Marketing</h5>
+                    <h4 class="name">Микола Тарасов</h4>
+                    <h5 class="job">Marketing</h5>
                 </li>
                 
-                <li>
+                <li class="team_card">
                     <img src="./src/img/my.png" alt="img">
                     
-                    <h4>Михайло Єрмаков</h4>
-                    <h5>UI Designer</h5>
+                    <h4 class="name">Михайло Єрмаков</h4>
+                    <h5 class="job">UI Designer</h5>
                 </li>
                 
+                
                  </ul>
+        </div>
         
         
     </section>
 </main>
-<footer>
-    <h2 class="logo"> <span>Web</span>WebStudio
-        <ul>
-            <li></li>
-        </ul>
 
-    </h2>
+
+<footer class="end">
+    <div class="container">
+        <h2 class="logo"> <span class="color_span">Web</span>Studio </h2>
+    <ul class="end_item">
+       <li class="end_itemss"><a href="/">м. Київ, пр-т Лесі Українки, 26</a></li>
+       <li class="end_items"><a href="mailto:info@example.com">info@example.com</a></li>
+       <li class="end_items"><a href="tel:+38096111111">+38 096 111 11 11</a></li>
+    </ul>
+    </div>
+    
+  
+
+   
 </footer>
-</header>
+
     
 </body>
