@@ -307,3 +307,21 @@ height: 54px;
 }
 
 
+.wrap {
+  display: inline-block;
+  margin: 0 40px 2em 0;
+  background: rgba(228, 225, 228, .5);
+}
+
+
+.cards:hover {
+  -o-transform: translate(-20px, 20px);
+  -ms-transform: translate(-20px, 20px);
+  -moz-transform: translate(-20px, 20px);
+  -webkit-transform: translate(-20px, 20px);
+  transform: translate(-20px, 20px);
+  transition: 0.7s all;
+
+}
+
+
