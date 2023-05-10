@@ -153,6 +153,7 @@ img {
   display: flex;
   gap: 21px;
   margin: 0 auto;
+  padding: 0;
 }
 .feature_item {
   width: 270px;
@@ -210,6 +211,9 @@ img {
 .work_photos {
   display: flex;
   justify-content: space-between;
+  padding: 0;
+  margin-left: 80px;
+  
  
   gap: 40px;
   
@@ -227,7 +231,7 @@ img {
 }
 .work_item {
   width: 370px;
-height: 294px;
+  height: 294px;
 }
 .team {
   padding: 50px;
@@ -248,6 +252,7 @@ color: #212121;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  padding: 0;
 }
 .team_card {
   background: #FFFFFF;
@@ -296,25 +301,21 @@ color: rgba(255, 255, 255, 0.6);
 }
 .nav_menu {
  display: flex;
- justify-content: space-between;
- margin: 0 auto;
+ gap: 8px;
  padding: 85px 0;
 
 }
-.promo_color {
-  width: 575px;
-height: 54px;
-}
+
 
 
 .wrap {
-  display: inline-block;
+  display: flex;
   margin: 0 40px 2em 0;
-  background: rgba(228, 225, 228, .5);
+ 
 }
 
 
-.cards:hover {
+.team_card:hover {
   -o-transform: translate(-20px, 20px);
   -ms-transform: translate(-20px, 20px);
   -moz-transform: translate(-20px, 20px);
@@ -324,4 +325,67 @@ height: 54px;
 
 }
 
+.tel_number {
+  color: #757575;
+}
+.nav_color {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
 
+   color: #212121;
+} 
+button{
+  cursor: pointer;
+}
+.name {
+  font-family: 'Roboto';
+font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.job {
+  text-align: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.footer_color {
+  
+  color: #FFFFFF;
+}
+.adress {
+  color: #FFFFFF;
+}
+.info {
+  color: rgba(255, 255, 255, 0.6);
+}
+.promo_color {
+  display: flex;
+
+}
+.btn_sections {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
