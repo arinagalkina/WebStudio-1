@@ -89,6 +89,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 1px solid #ECECEC;
 }
 .header_left {
   display: flex;
@@ -129,9 +130,7 @@ h1 {
   display: flex;
   justify-content: space-between;
 }
-img {
-  width: 200px;
-}
+
 .feature_title {
   width: 270px;
   height: 16px;
@@ -295,6 +294,7 @@ img {
   display: flex;
   gap: 8px;
   padding: 85px 0;
+  justify-content: center;
 }
 
 .wrap {
@@ -359,6 +359,9 @@ button {
 }
 .promo_color {
   display: flex;
+  width: 114px;
+  
+  
 }
 .btn_sections {
   font-family: "Roboto";
@@ -372,4 +375,76 @@ button {
   letter-spacing: 0.03em;
 
   color: #212121;
+  border: none;
+  
+  background: #F5F4FA;
+border-radius: 4px;
 }
+.photo_ul {
+  display: grid;
+  gap: 30px;
+  padding: 34px;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+
+
+}
+.progect_team {
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  width: 370px;
+}
+.text_cards {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.06em;
+
+color: #212121;
+}
+.name_ofcard {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+.div_cards {
+  padding: 20px 24px;
+}
+.footer_2 {
+  text-align: centerF;
+}
+.btn_sections:hover {
+  color: #FFFFFF;
+  background: #2196F3;
+/* shadow-middle */
+
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+transition: 0.9s all;
+}
+body {
+  background-color: #FFFFFF;
+}
+.photos_section {
+  background-color: #FFFFFF;
+}
+.progect_team:hover{
+  -o-transform: translate(-20px, 20px);
+  -ms-transform: translate(-20px, 20px);
+  -moz-transform: translate(-20px, 20px);
+  -webkit-transform: translate(-20px, 20px);
+  transform: translate(-20px, 20px);
+  transition: 0.7s all;
+}
+
