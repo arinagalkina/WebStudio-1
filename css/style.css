@@ -1,12 +1,9 @@
-
-
-footer {
-  background-color: #2f303a;
-}
+@import "../node_modules/animate.css/animate.min.css";
 
 a:hover {
   color: blue;
 }
+
 a {
   text-decoration: none;
 }
@@ -54,6 +51,9 @@ background-color: #2196F3;
 color: #FFFFFF;
  */
 }
+footer {
+  background-color: #2f303a;
+}
 
 .container {
   max-width: 1140px;
@@ -84,7 +84,6 @@ h1 {
   letter-spacing: 0.03em;
   color: black;
 }
-
 
 .header_blocks {
   display: flex;
@@ -213,10 +212,8 @@ img {
   justify-content: space-between;
   padding: 0;
   margin-left: 80px;
-  
- 
+
   gap: 40px;
-  
 }
 .work_title {
   font-family: "Roboto";
@@ -226,8 +223,6 @@ img {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-
- 
 }
 .work_item {
   width: 370px;
@@ -235,18 +230,18 @@ img {
 }
 .team {
   padding: 50px;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 .team_title {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-letter-spacing: 0.03em;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
 
-color: #212121;
+  color: #212121;
 }
 .cards {
   display: flex;
@@ -255,65 +250,57 @@ color: #212121;
   padding: 0;
 }
 .team_card {
-  background: #FFFFFF;
-/* material shadow v1 */
+  background: #ffffff;
+  /* material shadow v1 */
 
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .end {
   padding: 30px 0;
   margin: 0 auto;
- 
 }
 .end_item {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  
-  
 }
-    
+
 .end_itemss {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 .end_items {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: rgba(255, 255, 255, 0.6);
-
+  color: rgba(255, 255, 255, 0.6);
 }
 .nav_menu {
- display: flex;
- gap: 8px;
- padding: 85px 0;
-
+  display: flex;
+  gap: 8px;
+  padding: 85px 0;
 }
-
-
 
 .wrap {
   display: flex;
   margin: 0 40px 2em 0;
- 
 }
-
 
 .team_card:hover {
   -o-transform: translate(-20px, 20px);
@@ -322,28 +309,27 @@ color: rgba(255, 255, 255, 0.6);
   -webkit-transform: translate(-20px, 20px);
   transform: translate(-20px, 20px);
   transition: 0.7s all;
-
 }
 
 .tel_number {
   color: #757575;
 }
 .nav_color {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 
-   color: #212121;
-} 
-button{
+  color: #212121;
+}
+button {
   cursor: pointer;
 }
 .name {
-  font-family: 'Roboto';
-font-style: normal;
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -353,7 +339,7 @@ font-style: normal;
 }
 .job {
   text-align: center;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -363,29 +349,27 @@ font-style: normal;
   color: #757575;
 }
 .footer_color {
-  
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .adress {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .info {
   color: rgba(255, 255, 255, 0.6);
 }
 .promo_color {
   display: flex;
-
 }
 .btn_sections {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
 
-text-align: center;
-letter-spacing: 0.03em;
+  text-align: center;
+  letter-spacing: 0.03em;
 
-color: #212121;
+  color: #212121;
 }

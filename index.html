@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     
 
@@ -50,7 +51,8 @@
         
 <main>
     
-            <section class="promo">
+            <section class="promo animate__animated animate__fadeInRight wow" 
+            data-wow-duration="2s">
                 <div class="container">
                     <h1 class="promo_title">ефективні рішення для<br> вашого бізнесу</h1>
                 <button class="promo_btn">Замовити послугу</button>
@@ -58,7 +60,8 @@
             </section>
     <section class="feature">
         <div class="container">
-            <ul class="feature_items">
+            <ul class="feature_items animate__animated animate__pulse wow"
+            data-wow-duration="2s">
                 <li class="feature_item">
                     <h4 class="feature_title">Увага до деталей</h3>
                     <p>Ідейні міркування, і навіть 
@@ -97,7 +100,8 @@
 
         </div>
     </section>
-    <section class="team">
+    <section class="team animate__animated animate__fadeInUp wow"
+    data-wow-duration="2s">
         <div class="container">
             <h3 class="team_title">Наша команда</h3>
         <ul class="cards">
@@ -152,6 +156,8 @@
 
    
 </footer>
+<script src="./js/wow.min.js"></script>
+<script src="./js/script.js"></script>
 
     
 </body>
