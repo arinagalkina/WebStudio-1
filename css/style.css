@@ -244,9 +244,11 @@ h1 {
 }
 .cards {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;
   margin: 0 auto;
   padding: 0;
+  
 }
 .team_card {
   background: #ffffff;
@@ -446,5 +448,7 @@ body {
   -webkit-transform: translate(-20px, 20px);
   transform: translate(-20px, 20px);
   transition: 0.7s all;
+
 }
+
 
