@@ -11,7 +11,7 @@ li {
   list-style-type: none;
 }
 .promo {
-  background-color: #2f303a;
+ background-image: url(../background.png);
   padding: 200px 0;
 }
 
@@ -19,7 +19,7 @@ button {
   display: block;
 
   width: 216px;
-  height: 50px;
+  height: 37px;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -123,7 +123,7 @@ h1 {
   padding: 50px 215px;
   flex-direction: row;
   justify-content: center;
-  background-color: F5F5F5;
+  
 }
 
 .img_work {
@@ -152,6 +152,8 @@ h1 {
   gap: 21px;
   margin: 0 auto;
   padding: 0;
+  position: relative;
+  align-items: center;
 }
 .feature_item {
   width: 270px;
@@ -230,7 +232,6 @@ h1 {
 
 }
 .team {
-  padding: 50px;
   background-color: #f5f4fa;
 }
 .team_title {
@@ -254,6 +255,7 @@ h1 {
 }
 .team_card {
   background: #ffffff;
+  width: 260px;
   /* material shadow v1 */
   
 
@@ -319,6 +321,7 @@ h1 {
 
 .tel_number {
   color: #757575;
+
 }
 .nav_color {
   font-family: "Roboto";
@@ -385,7 +388,7 @@ button {
   
   background: #F5F4FA;
 border-radius: 4px;
-padding: 6px 22px;
+
 }
 .photo_ul {
   display: grid;
@@ -393,6 +396,7 @@ padding: 6px 22px;
   padding: 0;
   justify-content: center;
   grid-template-columns: repeat(3, 1fr);
+  flex-wrap: wrap;
 
 
 }
@@ -461,7 +465,27 @@ body {
   height: 100%;
 }
  .card_photo {
-  width: 200px;
+  width: 100%;
  }
+.tel_number:hover path{
+  fill:#2196F3;
+  gap: 6px;
+}
+.promo_btn {
+  border: none;
+}
+.antenna {
+ 
+  width: 16vh;
+}
+.image_container {
+  position: absolute;
+  align-self: center;
+  z-index: 15px;
+}
+hr {
+color: 
+#ECECEC;
+}
 
 
