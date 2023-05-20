@@ -15,42 +15,6 @@ li {
   padding: 200px 0;
 }
 
-button {
-  display: block;
-
-  width: 216px;
-  height: 37px;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 188% */
-
-  text-align: center;
-  letter-spacing: 0.06em;
-
-  color: #ffffff;
-  margin: 0 auto;
-  margin-top: 30px;
-
-  /* font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 30px;
-
-
-
-text-align: center;
-letter-spacing: 0.06em;
-background-color: #2196F3;
-color: #FFFFFF;
- */
-}
 footer {
   background-color: #2f303a;
 }
@@ -93,8 +57,6 @@ h1 {
 }
 .header_left {
   display: flex;
-  justify-content: space-between;
-  width: 510px;
   align-items: center;
   gap: 90px;
 }
@@ -102,11 +64,12 @@ h1 {
   display: flex;
   justify-content: space-between;
   width: 280px;
+  padding: 0;
 }
 .menu_contact {
   display: flex;
-  justify-content: space-between;
-  width: 300px;
+  gap: 30px;
+  align-items: center;
 }
 
 .header_main {
@@ -366,12 +329,9 @@ button {
 .info {
   color: rgba(255, 255, 255, 0.6);
 }
-.promo_color {
-  display: flex;
-  width: 114px;
+
   
-  
-}
+
 .btn_sections {
   font-family: "Roboto";
   font-style: normal;
@@ -388,6 +348,7 @@ button {
   
   background: #F5F4FA;
 border-radius: 4px;
+padding: 6px 22px;
 
 }
 .photo_ul {
@@ -473,6 +434,25 @@ body {
 }
 .promo_btn {
   border: none;
+  display: block;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 10px 32px;
+  
 }
 .antenna {
  
@@ -486,6 +466,13 @@ body {
 hr {
 color: 
 #ECECEC;
+}
+.tel_number>svg{
+  margin-right: 10px;
+
+}
+.tel_number>i {
+  margin-right: 10px;
 }
 
 
