@@ -12,7 +12,11 @@ li {
 }
 .promo {
  background-image: url(../background.png);
-  padding: 200px 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 75px;
+
 }
 
 footer {
@@ -20,7 +24,7 @@ footer {
 }
 
 .container {
-  max-width: 1140px;
+  width: 1140px;
   margin: 0 auto;
 }
 h1 {
@@ -115,8 +119,7 @@ h1 {
   gap: 21px;
   margin: 0 auto;
   padding: 0;
-  position: relative;
-  align-items: center;
+ 
 }
 .feature_item {
   width: 270px;
@@ -169,15 +172,13 @@ h1 {
 }
 .works {
   padding: 50px 0;
-  background-color: #F5F5F5;
+  
 }
 .work_photos {
   display: flex;
   justify-content: space-between;
   padding: 0;
-  margin-left: 80px;
 
-  gap: 40px;
 }
 .work_title {
   font-family: "Roboto";
@@ -190,8 +191,8 @@ h1 {
 }
 .work_item {
   
-    width: 100%;
-    height: 100%;
+  width: 370px;
+  height: 294px;
 
 }
 .team {
@@ -266,6 +267,7 @@ h1 {
   gap: 8px;
   padding: 94px 0 35px 0;
   justify-content: center;
+  
 }
 
 .wrap {
@@ -283,7 +285,16 @@ h1 {
 }
 
 .tel_number {
-  color: #757575;
+  color: #757575; 
+
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #757575;
 
 }
 .nav_color {
@@ -473,6 +484,39 @@ color:
 }
 .tel_number>i {
   margin-right: 10px;
+}
+header {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  background-color: #FFFFFF;
+  top: 0;
+  
+}
+.svg_images {
+  display: flex;
+  width: 70px;
+  background: #F5F4FA;
+  border-radius: 4px;
+  padding: 25px 100px ;
+  margin: 0 auto;
+}
+.client {
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+}
+.promo_overlay {
+  background: rgba(47, 48, 58, 0.4);
+  padding: 200px 0;
 }
 
 
