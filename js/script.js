@@ -1,2 +1,3 @@
 new WOW().init();
-alert("Привіт")
+let greetingsForUsers = "HELLO MY DEAR USER";
+alert(greetingsForUsers);

@@ -206,6 +206,7 @@ h1 {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-top: 94px;
 
   color: #212121;
 }
@@ -214,7 +215,7 @@ h1 {
   justify-content: center;
   gap: 30px;
   margin: 0 auto;
-  padding: 0;
+  padding-bottom: 94px;
   
 }
 .team_card {
@@ -285,6 +286,8 @@ h1 {
 }
 
 .tel_number {
+  display: flex;
+  align-items: center;
   color: #757575; 
 
   font-family: 'Roboto';
@@ -518,5 +521,52 @@ color: #212121;
   background: rgba(47, 48, 58, 0.4);
   padding: 200px 0;
 }
+
+.clients_ul {
+  display: flex;
+  gap: 30px;
+  padding: 50px;
+
+  
+}
+.clients_section { 
+  width: 170px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  object-fit: cover;
+  padding: 16px 32px;
+}
+.img_client {
+  width: 92px;
+  width: 170px;
+
+}
+ .clients_section:hover path {
+ fill: #2196F3;
+ }
+ .clients {
+  padding: 94px;
+ }
+.clients_section>:hover{
+
+ color:#2196F3; 
+}
+svg {
+  fill: #AFB1B8;
+}
+.team_card>.container {
+  display: flex;
+  gap: 22px;
+  margin-left: 54px;
+  margin-bottom: 42px;
+  margin-top: 28px;
+}
+.team_card:hover path {
+  fill: #2196F3;
+  
+  box-shadow: #757575;
+  border-radius: 10px;
+}
+ 
 
 
