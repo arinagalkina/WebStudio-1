@@ -11,7 +11,7 @@ li {
   list-style-type: none;
 }
 .promo {
- background-image: url(../background.png);
+ background-image: url(../src/img/background.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -276,14 +276,14 @@ h1 {
   margin: 0 40px 2em 0;
 }
 
-.team_card:hover {
+/* .team_card:hover {
   -o-transform: translate(-20px, 20px);
   -ms-transform: translate(-20px, 20px);
   -moz-transform: translate(-20px, 20px);
   -webkit-transform: translate(-20px, 20px);
   transform: translate(-20px, 20px);
   transition: 0.7s all;
-}
+} */
 
 .tel_number {
   display: flex;
@@ -526,6 +526,9 @@ color: #212121;
   display: flex;
   gap: 30px;
   padding: 50px;
+  
+  
+
 
   
 }
@@ -541,16 +544,16 @@ color: #212121;
   width: 170px;
 
 }
+.clients_section>svg {
+  fill:#AFB1B8;
+}
  .clients_section:hover path {
  fill: #2196F3;
  }
  .clients {
   padding: 94px;
  }
-.clients_section>:hover{
 
- color:#2196F3; 
-}
 svg {
   fill: #AFB1B8;
 }
@@ -561,12 +564,81 @@ svg {
   margin-bottom: 42px;
   margin-top: 28px;
 }
-.team_card:hover path {
-  fill: #2196F3;
-  
-  box-shadow: #757575;
-  border-radius: 10px;
+
+
+.elipse {
+  width: 20px;
+  height: 20px;
+  background-color: #FFFFFF;
+  border-radius: 100%;
+  position: relative;
+  cursor: pointer;
 }
+.inst>svg {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  transform: translate(-50%, -50%);
+}
+.elipse:hover {
+  background-color:#2196F3;
+  transition: 0.8s all;
+}
+.elipse:hover svg path {
+  fill: #FFFFFF;
+}
+.elipse svg path {
+  fill: #AFB1B8;
+}
+.clients_ul svg {
+  
+  position: relative;
+  top: 5px;
+  left: 18px;
+  
+  
+}
+.footer_h2 {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.elipses:hover {
+  background-color:#2196F3;
+  transition: 0.8s all;
+}
+.elipses:hover svg path {
+  fill: #FFFFFF;
+}
+.elipses svg path {
+  fill:#FFFFFF;
+}
+
+.elipses {
+  width: 20px;
+  height: 20px;
+  background-color:rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  cursor: pointer;
+  
+}
+.ellipse {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+
+
+
  
 
 
