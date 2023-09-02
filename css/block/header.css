@@ -46,7 +46,7 @@
     padding: 20px 24px;
   }
   .promo {
-    background-image: url(../../src/img/img.png);
+   
     z-index: 2;
     object-fit: cover;
   }
@@ -66,4 +66,7 @@
     color: white;
     width: 216px;
     height: 50px;
+  }
+  .promo_overlay {
+    background-image: url(../../src/img/img.png);
   }
