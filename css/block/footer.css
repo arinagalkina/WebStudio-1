@@ -77,11 +77,7 @@
 footer {
   background-color: #2f303a;
 }
-.join_box {
-  right: 184px;
-  bottom: 165px;
-  position: relative;
-}
+
 .block_f {
   color: #fff;
   font-family: Roboto;
@@ -94,4 +90,14 @@ footer {
   display: flex;
   justify-content: center;
   align-items:center;
+}
+.all_box_footer {
+  gap: 94px;
+  display: flex;
+
+}
+.join_box {
+  display:flex;
+  justify-content: center;
+  flex-direction:column
 }

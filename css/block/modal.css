@@ -135,9 +135,11 @@ form {
 
 .form_box:hover i {
   color: #2196f3;
+  transition:0.8s all;
 }
 .form_box:hover {
   border-color: #2196f3;
+  transition:0.8s all;
 }
 .foot_btn_sub {
   border-radius: 4px;
@@ -184,17 +186,24 @@ form {
 }
 .form_footer_box {
   display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  right: 196px;
-  bottom: 252px;
-  position: relative;
+  justify-content: center;
+
+
   gap: 23px;
   flex-direction: column;
 }
 .wrap_modal {
   display:flex;
+  gap:30px;
 }
 .label_wrap {
+  display: flex;
+}
+.end>.container {
+  display: flex;
+  justify-content: center;
+}
+.footer_form {
+  justify-content: center;
   display: flex;
 }
